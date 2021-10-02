@@ -1,24 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>Wikipediki</title>
 <style>
     @font-face {
         font-family: Ustroke;
         src: url("fonts/Ustroke.ttf");
+        font-family: jopa;
+        src: url("fonts/20076.otf");
     }
-</style>
-/*ауе татары*/
-
-</head>
+	body {
+		background: url(img/13e46c219ee2c311c90e5f56071d36f0.jpg);
+        background-size: cover;
+	} /*ауе татары*/
+    .modal-block {
+        z-index: -1;
+position:fixed;
+display:flex;
+align-items:flex-end;
+justify-content:center;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+    }
+</style> 
 <body>
 <p style="text-align: center">(Шутки кончились)</p>
 <h1 style="font-family: Ustroke,fantasy; font-size:80px; text-align: center">Wikipediki</h1>
 
-
 <p style="text-align: center">
-    Дизайн, ссылки, картинки, непосредственно информация и т.д. будут добавляться по ходу дела.
+    Здравствуйте, Ниана Юрьевна! <br>Этот сайт я буду использовать как источник информации для проекта. <br>
+    Дизайн, ссылки, картинки, непосредственно информацию и т.д. буду добавлять по ходу дела.
 </p>
 В этой замечательной интернет-энциклопедии вы найдёте (скоро) статьи на такие темы, как:
 <ul>
@@ -26,6 +39,16 @@
     <li>Бог существует</li>
     <li>Гитлер и Сталин были друзьями</li>
 </ul>
-...и это только начало!
+...и это только начало! <br>
+<button onclick="pizdec()">Нажмите, чтобы развалить СССР</button>
+<div class="modal-block">
+    <div style="background-size: cover;width: 300px; height: 200px; background-image: url(img/7kzHVsJnkEU.jpg); text-align: center; color: #425e17"><h1 style="font-family: jopa; font-size: 5vw;">Lebedev <br> art</h1></div>
+</div>
 </body>
+<script type="text/javascript">
+    function pizdec() {
+        document.getElementsByTagName("body")[0].style.backgroundImage = "url(img/Flag_of_Russia.svg.png)";
+    }
+    setTimeout (pizdec, 69000)
+</script>
 </html>
