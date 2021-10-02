@@ -3,14 +3,28 @@
     
     <title>Wikipediki</title>
 <style>
-     @font-face {
+    @font-face {
         font-family: Ustroke;
         src: url("fonts/Ustroke.ttf");
+        font-family: jopa;
+        src: url("fonts/20076.otf");
     }
 	body {
 		background: url(img/13e46c219ee2c311c90e5f56071d36f0.jpg);
         background-size: cover;
 	} /*ауе татары*/
+    .modal-block {
+        z-index: -1;
+position:fixed;
+display:flex;
+align-items:flex-end;
+justify-content:center;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+
+    }
 </style> 
 <body>
 <p style="text-align: center">(Шутки кончились)</p>
@@ -28,6 +42,9 @@
 </ul>
 ...и это только начало! <br>
 <button onclick="pizdec()">Нажмите, чтобы развалить СССР</button>
+<div class="modal-block">
+    <div style="background-size: cover;width: 300px; height: 200px; background-image: url(img/7kzHVsJnkEU.jpg); text-align: center; color: #425e17"><h1 style="font-family: jopa; font-size: 5vw;">Lebedev <br> art</h1></div>
+</div>
 </body>
 <script type="text/javascript">
     function pizdec() {
