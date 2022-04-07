@@ -1,0 +1,11 @@
+@font-face {
+	font-family: Ustroke;
+	src: url("fonts/Ustroke.ttf");
+}
+
+.main {
+	font-family: Ustroke;
+	text-align: center;
+	font-size: 60px;
+}
+
