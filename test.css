@@ -36,7 +36,7 @@ body {
   button {
     margin: 0 10px;
     padding: 10px;
-    border-radius: 9px;
+    border-radius: 3px;
     background-color: #333;
     color: #fff;
     cursor: pointer;
@@ -45,5 +45,6 @@ body {
   button:hover {
     transform: scale(0.9);
     transition: 0.4s ease;
-    border-color: aquamarine;
+    border-color: crimson;
+    border-radius: 9px;
   }
