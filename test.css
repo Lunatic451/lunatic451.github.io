@@ -37,15 +37,17 @@ body {
     margin: 0 10px;
     padding: 10px;
     border-radius: 3px;
+    border-style: double;
     background-color: #333;
     color: #fff;
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: all 0.4s;
+    border-color: #333;
   }
 
   button:hover {
     transform: scale(0.9);
-    transition: 0.4s ease;
+    transition: all 0.4s ease;
     border-color: crimson;
     border-radius: 9px;
   }
